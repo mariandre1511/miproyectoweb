@@ -1,0 +1,92 @@
+body{
+    border: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: hsl(120, 100%, 1%);
+    background-color: rgb(185, 222, 236);
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    background-color: #c0e9cd;
+    border: 1px solid black;
+    border-radius: 45px;
+    border-radius: 25px;
+    padding: 5px; 
+}
+    
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(155, 223, 182);
+    border: 1px solid rgb(172, 192, 196);
+    border-radius: 45px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+h1 {
+    text-align: left;
+    font-family: "Open Sanns", italica;
+    color: rgb(99, 22, 187);
+    margin: 20px 0px 0px 0px;
+}
+    
+.flex-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: flex-start;
+}
+
+.flex-conteiner div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(183, 207, 125);
+    margin: 10px;
+    border: 1px solid rgb(2, 27, 10);
+    border-radius: 45px;
+    padding: 10px;
+    border-radius: 15px;
+    padding: 5px;
+    align-items: center
+}
+   
+h2 {
+    text-align: start;
+    font-family: "Open Sanns", italica;
+    color: rgb(99, 22, 187);
+}
+    
+h4 {
+    text-align: start;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(163, 17, 17);
+}
+  
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(101, 164, 216);
+    border-radius: 5px;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Open Sanns", italica;
+    color: rgb(6, 1, 12);  
+}
+

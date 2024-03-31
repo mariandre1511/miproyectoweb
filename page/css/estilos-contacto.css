@@ -1,0 +1,39 @@
+.navbar-brand img { max-width: 50px; }
+
+.bg-dark { background: #85888b!important; }
+
+h2 {
+  font-family: "Open Sanns", italica;
+  color: rgb(251, 250, 253);
+}
+
+.pt-section { padding-top: 7rem; }
+
+#totalPago {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#btnBorrar {
+  background-color: chartreuse;
+}
+
+#btnResumen {
+  background-color: chartreuse;
+}
+
+#main-footer {
+  background: #1d3c4e;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+#main-footer .nav-link {
+  color: #fff;
+  text-align: center;
+}
+#main-footer .nav-link:hover { opacity: .7; }
+
+@media (min-width: 992px) {
+  #main-footer .nav-link span { display: block; }
+}
